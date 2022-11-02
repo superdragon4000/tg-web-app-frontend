@@ -1,7 +1,7 @@
 export function useTelegram() {
     const tg = window.Telegram.WebApp;
     const onClose = () => {
-        this.close();
+        tg.close();
     }
 
     const onToggleButton = () => {
